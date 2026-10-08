@@ -1,0 +1,1660 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.npmrc
+5 silly config load:file:/Users/cvaranasi/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.npm-cache/_logs/2026-10-08T19_11_20_401Z-
+10 verbose logfile /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.npm-cache/_logs/2026-10-08T19_11_20_401Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn-import-phases'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn-loose'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ajv-formats'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/aria-query'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array-buffer-byte-length'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array-includes'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.findlast'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.findlastindex'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.flat'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.flatmap'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.tosorted'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/arraybuffer.prototype.slice'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ast-types-flow'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/async-function'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/available-typed-arrays'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/axe-core'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/axobject-query'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/base64-js'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/baseline-browser-mapping'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/blake3-wasm'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/brace-expansion'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/browserslist'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/buffer-from'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/call-bind'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/camelize'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/caniuse-lite'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/chrome-trace-event'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/client-only'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/commander'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/cookie'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-background-parser'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-box-shadow'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-color-keywords'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-gradient-parser'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-to-react-native'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/damerau-levenshtein'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-buffer'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-byte-length'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-byte-offset'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/date-fns'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/define-data-property'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/define-properties'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/detect-libc'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/doctrine'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-kit'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-orm'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/electron-to-chromium'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/emoji-regex'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/emoji-regex-xs'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/enhanced-resolve'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/error-stack-parser-es'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-abstract'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-iterator-helpers'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-module-lexer'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-object-atoms'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-shim-unscopables'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-to-primitive'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-toolkit'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/esbuild'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-config-next'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-import-resolver-node'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-import-resolver-typescript'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-module-utils'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-import'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-jsx-a11y'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-react'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-react-hooks'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eventemitter3'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/events'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fast-glob'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fast-uri'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fastq'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fflate'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/flatted'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/for-each'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/function.prototype.name'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/functions-have-names'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/generator-function'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/get-symbol-description'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/get-tsconfig'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/glob-to-regexp'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/globalthis'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/graceful-fs'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-bigints'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-property-descriptors'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-proto'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hasown'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hermes-estree'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hermes-parser'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hex-rgb'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/image-size'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/immer'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/input-otp'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/internal-slot'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ipaddr.js'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-array-buffer'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-async-function'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-bigint'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-boolean-object'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-bun-module'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-callable'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-core-module'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-data-view'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-date-object'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-finalizationregistry'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-generator-function'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-map'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-negative-zero'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-number-object'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-regex'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-set'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-shared-array-buffer'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-string'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-symbol'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-typed-array'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakmap'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakref'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakset'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/isarray'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/iterator.prototype'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jest-worker'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jiti'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/js-yaml'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jsesc'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/json-rpc-2.0'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/json5'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jsx-ast-utils'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/kleur'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/language-subtag-registry'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/language-tags'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lightningcss'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lightningcss-darwin-arm64'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/linebreak'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/loader-runner'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/loose-envify'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lucide-react'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/merge-stream'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/miniflare'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/minimist'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/nanoid'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/napi-postinstall'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/neo-async'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/next'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/next-themes'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/node-exports-info'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/node-releases'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object-keys'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.assign'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.entries'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.fromentries'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.groupby'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.values'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/own-keys'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/pako'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/parse-css-color'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/path-to-regexp'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/possible-typed-array-names'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/postcss'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/radix-ui'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-day-picker'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-dom'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-hook-form'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-redux'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-resizable-panels'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-server-dom-webpack'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/recharts'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/redux'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/redux-thunk'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/reflect.getprototypeof'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/regexp.prototype.flags'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/reselect'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/resolve'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/resolve-pkg-maps'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/rolldown'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-array-concat'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-push-apply'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-regex-test'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/satori'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/scheduler'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/schema-utils'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/semver'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-function-length'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-function-name'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-proto'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/sharp'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/side-channel'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/sonner'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/source-map-js'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/source-map-support'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/srvx'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/stable-hash'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/stop-iteration-iterator'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.codepointat'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.includes'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.matchall'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.repeat'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trim'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trimend'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trimstart'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/strip-bom'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/styled-jsx'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tailwind-merge'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tailwindcss'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tapable'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/terser'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/terser-webpack-plugin'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tiny-inflate'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tinyglobby'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tsconfig-paths'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tsx'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/turbo-stream'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tw-animate-css'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-buffer'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-byte-length'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-byte-offset'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-length'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typescript'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typescript-eslint'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unbox-primitive'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/undici'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unenv'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unicode-trie'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unpic'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unrs-resolver'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/update-browserslist-db'
+241 silly reify ]
+242 silly reify mark retired [
+242 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/use-sync-external-store'
+242 silly reify ]
+243 silly reify mark retired [
+243 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vaul'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/victory-vendor'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vinext'
+245 silly reify ]
+246 silly reify mark retired [
+246 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite'
+246 silly reify ]
+247 silly reify mark retired [
+247 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite-plugin-commonjs'
+247 silly reify ]
+248 silly reify mark retired [
+248 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite-plugin-dynamic-import'
+248 silly reify ]
+249 silly reify mark retired [
+249 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vitefu'
+249 silly reify ]
+250 silly reify mark retired [
+250 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/watchpack'
+250 silly reify ]
+251 silly reify mark retired [
+251 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/web-vitals'
+251 silly reify ]
+252 silly reify mark retired [
+252 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/webpack'
+252 silly reify ]
+253 silly reify mark retired [
+253 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/webpack-sources'
+253 silly reify ]
+254 silly reify mark retired [
+254 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which'
+254 silly reify ]
+255 silly reify mark retired [
+255 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-boxed-primitive'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-builtin-type'
+256 silly reify ]
+257 silly reify mark retired [
+257 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-collection'
+257 silly reify ]
+258 silly reify mark retired [
+258 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-typed-array'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/workerd'
+259 silly reify ]
+260 silly reify mark retired [
+260 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/wrangler'
+260 silly reify ]
+261 silly reify mark retired [
+261 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ws'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/yoga-layout'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/youch'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/youch-core'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/zod-validation-error'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@alloc/quick-lru'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/code-frame'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/compat-data'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/core'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/generator'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-compilation-targets'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-globals'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-module-imports'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-module-transforms'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-string-parser'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-validator-identifier'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-validator-option'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helpers'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/parser'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/template'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/traverse'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/types'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/react'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/utils'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/kv-asset-handler'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/unenv-preset'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/vite-plugin'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/workerd-darwin-arm64'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/workers-types'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cspotcode/source-map-support'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@date-fns/tz'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@drizzle-team/brocli'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@emnapi/wasi-threads'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild/darwin-arm64'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/core-utils'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/esm-loader'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/eslintrc'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/js'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint-community/eslint-utils'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@hookform/resolvers'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/colour'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/sharp-darwin-arm64'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/sharp-libvips-darwin-arm64'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/source-map'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/sourcemap-codec'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/env'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/eslint-plugin-next'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/swc-darwin-arm64'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@nolyfill/is-core-module'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@oxc-project/types'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/colors'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/dumper'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/exception'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-accessible-icon'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-accordion'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-alert-dialog'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-arrow'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-aspect-ratio'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-avatar'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-checkbox'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-collapsible'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-collection'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-compose-refs'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-context-menu'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dialog'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-direction'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dismissable-layer'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dropdown-menu'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-focus-scope'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-form'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-hover-card'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-label'
+332 silly reify ]
+333 silly reify mark retired [
+333 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-menu'
+333 silly reify ]
+334 silly reify mark retired [
+334 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-menubar'
+334 silly reify ]
+335 silly reify mark retired [
+335 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-navigation-menu'
+335 silly reify ]
+336 silly reify mark retired [
+336 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-one-time-password-field'
+336 silly reify ]
+337 silly reify mark retired [
+337 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-password-toggle-field'
+337 silly reify ]
+338 silly reify mark retired [
+338 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-popover'
+338 silly reify ]
+339 silly reify mark retired [
+339 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-popper'
+339 silly reify ]
+340 silly reify mark retired [
+340 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-portal'
+340 silly reify ]
+341 silly reify mark retired [
+341 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-presence'
+341 silly reify ]
+342 silly reify mark retired [
+342 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-primitive'
+342 silly reify ]
+343 silly reify mark retired [
+343 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-progress'
+343 silly reify ]
+344 silly reify mark retired [
+344 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-radio-group'
+344 silly reify ]
+345 silly reify mark retired [
+345 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-roving-focus'
+345 silly reify ]
+346 silly reify mark retired [
+346 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-scroll-area'
+346 silly reify ]
+347 silly reify mark retired [
+347 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-select'
+347 silly reify ]
+348 silly reify mark retired [
+348 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-separator'
+348 silly reify ]
+349 silly reify mark retired [
+349 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-slider'
+349 silly reify ]
+350 silly reify mark retired [
+350 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-switch'
+350 silly reify ]
+351 silly reify mark retired [
+351 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-tabs'
+351 silly reify ]
+352 silly reify mark retired [
+352 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toast'
+352 silly reify ]
+353 silly reify mark retired [
+353 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toggle'
+353 silly reify ]
+354 silly reify mark retired [
+354 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toggle-group'
+354 silly reify ]
+355 silly reify mark retired [
+355 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toolbar'
+355 silly reify ]
+356 silly reify mark retired [
+356 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-tooltip'
+356 silly reify ]
+357 silly reify mark retired [
+357 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-use-escape-keydown'
+357 silly reify ]
+358 silly reify mark retired [
+358 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-use-size'
+358 silly reify ]
+359 silly reify mark retired [
+359 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-visually-hidden'
+359 silly reify ]
+360 silly reify mark retired [
+360 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@reduxjs/toolkit'
+360 silly reify ]
+361 silly reify mark retired [
+361 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@resvg/resvg-wasm'
+361 silly reify ]
+362 silly reify mark retired [
+362 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/binding-darwin-arm64'
+362 silly reify ]
+363 silly reify mark retired [
+363 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/pluginutils'
+363 silly reify ]
+364 silly reify mark retired [
+364 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rtsao/scc'
+364 silly reify ]
+365 silly reify mark retired [
+365 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shadcn/react'
+365 silly reify ]
+366 silly reify mark retired [
+366 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shuding/opentype.js'
+366 silly reify ]
+367 silly reify mark retired [
+367 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@sindresorhus/is'
+367 silly reify ]
+368 silly reify mark retired [
+368 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@speed-highlight/core'
+368 silly reify ]
+369 silly reify mark retired [
+369 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/spec'
+369 silly reify ]
+370 silly reify mark retired [
+370 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/utils'
+370 silly reify ]
+371 silly reify mark retired [
+371 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@swc/helpers'
+371 silly reify ]
+372 silly reify mark retired [
+372 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/node'
+372 silly reify ]
+373 silly reify mark retired [
+373 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/oxide'
+373 silly reify ]
+374 silly reify mark retired [
+374 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/oxide-darwin-arm64'
+374 silly reify ]
+375 silly reify mark retired [
+375 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/postcss'
+375 silly reify ]
+376 silly reify mark retired [
+376 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tybys/wasm-util'
+376 silly reify ]
+377 silly reify mark retired [
+377 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/d3-shape'
+377 silly reify ]
+378 silly reify mark retired [
+378 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/eslint'
+378 silly reify ]
+379 silly reify mark retired [
+379 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/eslint-scope'
+379 silly reify ]
+380 silly reify mark retired [
+380 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/json5'
+380 silly reify ]
+381 silly reify mark retired [
+381 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/node'
+381 silly reify ]
+382 silly reify mark retired [
+382 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/react'
+382 silly reify ]
+383 silly reify mark retired [
+383 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/react-dom'
+383 silly reify ]
+384 silly reify mark retired [
+384 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/use-sync-external-store'
+384 silly reify ]
+385 silly reify mark retired [
+385 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/eslint-plugin'
+385 silly reify ]
+386 silly reify mark retired [
+386 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/parser'
+386 silly reify ]
+387 silly reify mark retired [
+387 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/project-service'
+387 silly reify ]
+388 silly reify mark retired [
+388 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/scope-manager'
+388 silly reify ]
+389 silly reify mark retired [
+389 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/tsconfig-utils'
+389 silly reify ]
+390 silly reify mark retired [
+390 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/type-utils'
+390 silly reify ]
+391 silly reify mark retired [
+391 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/types'
+391 silly reify ]
+392 silly reify mark retired [
+392 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/typescript-estree'
+392 silly reify ]
+393 silly reify mark retired [
+393 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/utils'
+393 silly reify ]
+394 silly reify mark retired [
+394 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/visitor-keys'
+394 silly reify ]
+395 silly reify mark retired [
+395 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/core'
+395 silly reify ]
+396 silly reify mark retired [
+396 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/react'
+396 silly reify ]
+397 silly reify mark retired [
+397 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unrs/resolver-binding-darwin-arm64'
+397 silly reify ]
+398 silly reify mark retired [
+398 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vercel/og'
+398 silly reify ]
+399 silly reify mark retired [
+399 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vinext/types'
+399 silly reify ]
+400 silly reify mark retired [
+400 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/plugin-react'
+400 silly reify ]
+401 silly reify mark retired [
+401 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/plugin-rsc'
+401 silly reify ]
+402 silly reify mark retired [
+402 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/ast'
+402 silly reify ]
+403 silly reify mark retired [
+403 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/floating-point-hex-parser'
+403 silly reify ]
+404 silly reify mark retired [
+404 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-api-error'
+404 silly reify ]
+405 silly reify mark retired [
+405 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-buffer'
+405 silly reify ]
+406 silly reify mark retired [
+406 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-numbers'
+406 silly reify ]
+407 silly reify mark retired [
+407 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-wasm-bytecode'
+407 silly reify ]
+408 silly reify mark retired [
+408 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-wasm-section'
+408 silly reify ]
+409 silly reify mark retired [
+409 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/ieee754'
+409 silly reify ]
+410 silly reify mark retired [
+410 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/leb128'
+410 silly reify ]
+411 silly reify mark retired [
+411 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/utf8'
+411 silly reify ]
+412 silly reify mark retired [
+412 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-edit'
+412 silly reify ]
+413 silly reify mark retired [
+413 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-gen'
+413 silly reify ]
+414 silly reify mark retired [
+414 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-opt'
+414 silly reify ]
+415 silly reify mark retired [
+415 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-parser'
+415 silly reify ]
+416 silly reify mark retired [
+416 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wast-printer'
+416 silly reify ]
+417 silly reify mark retired [
+417 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/ieee754'
+417 silly reify ]
+418 silly reify mark retired [
+418 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/long'
+418 silly reify ]
+419 silly reify moves {
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.acorn-rGYRSwhn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn-import-phases': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.acorn-import-phases-FBNtDo8q',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/acorn-loose': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.acorn-loose-KRRQ64H7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ajv-formats': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.ajv-formats-7DDKlXUy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/aria-query': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.aria-query-ZhbaGR3L',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array-buffer-byte-length': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array-buffer-byte-length-3hCXQmoS',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array-includes': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array-includes-vfnhpIXs',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.findlast': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array.prototype.findlast-wtN535NI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.findlastindex': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array.prototype.findlastindex-7OmygjQN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.flat': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array.prototype.flat-Ghc161ye',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.flatmap': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array.prototype.flatmap-0NZalBRD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/array.prototype.tosorted': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.array.prototype.tosorted-c8kirV3k',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/arraybuffer.prototype.slice': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.arraybuffer.prototype.slice-9EXCfsPi',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ast-types-flow': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.ast-types-flow-0j62pFhl',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/async-function': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.async-function-pOrWjQp3',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/available-typed-arrays': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.available-typed-arrays-luFGqf0r',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/axe-core': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.axe-core-uz6mBtvA',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/axobject-query': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.axobject-query-7kfHiKin',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/base64-js': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.base64-js-jdPvmLbi',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/baseline-browser-mapping': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.baseline-browser-mapping-C7Y22Mol',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/blake3-wasm': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.blake3-wasm-xdnCFrWu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/brace-expansion': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.brace-expansion-EujUZZE0',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/browserslist': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.browserslist-dNLncNhz',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/buffer-from': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.buffer-from-SjZnbKYe',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/call-bind': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.call-bind-eKJfe6nt',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/camelize': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.camelize-B2x0lyWr',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/caniuse-lite': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.caniuse-lite-bY1d4wkY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/chrome-trace-event': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.chrome-trace-event-mrZWzX4O',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/client-only': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.client-only-ApNRmq22',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/commander': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.commander-4r6tFnq0',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/cookie': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.cookie-hKanX3Fx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-background-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.css-background-parser-Y5QR9G3Z',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-box-shadow': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.css-box-shadow-EegNd3jd',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-color-keywords': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.css-color-keywords-bbNcXipN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-gradient-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.css-gradient-parser-w3qEWlcj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/css-to-react-native': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.css-to-react-native-O2VZHOtZ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/damerau-levenshtein': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.damerau-levenshtein-aUIoub4q',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-buffer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.data-view-buffer-OLX8ZFYT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-byte-length': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.data-view-byte-length-yKAiRLQd',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/data-view-byte-offset': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.data-view-byte-offset-MfyIhSFJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/date-fns': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.date-fns-xJRlHVqy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/define-data-property': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.define-data-property-Wma3JYlV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/define-properties': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.define-properties-YvK6Tn6a',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/detect-libc': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.detect-libc-hss5OQ8Y',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/doctrine': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.doctrine-OlHkMPMJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-kit': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.drizzle-kit-U1vA85jQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-orm': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.drizzle-orm-IJvnSdcQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/electron-to-chromium': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.electron-to-chromium-x6vC1NIt',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/emoji-regex': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.emoji-regex-RwK2zIXg',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/emoji-regex-xs': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.emoji-regex-xs-d9SQlLVr',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/enhanced-resolve': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.enhanced-resolve-BEKHKWNH',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/error-stack-parser-es': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.error-stack-parser-es-NsgbP24s',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-abstract': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-abstract-O9ZUNUTH',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-iterator-helpers': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-iterator-helpers-esb4jSF4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-module-lexer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-module-lexer-lTQ2OYQB',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-object-atoms': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-object-atoms-d3TgFfYH',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-shim-unscopables': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-shim-unscopables-wDg8Fbd1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-to-primitive': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-to-primitive-w5g6bGnx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/es-toolkit': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.es-toolkit-sEkovEV1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/esbuild': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.esbuild-lZ3Wqnwe',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-waalBBR1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-config-next': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-config-next-J6YBZwyn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-import-resolver-node': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-import-resolver-node-ytjibreY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-import-resolver-typescript': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-import-resolver-typescript-Gjntpun6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-module-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-module-utils-zkIqU5qY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-import': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-plugin-import-A2z7gT01',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-jsx-a11y': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-plugin-jsx-a11y-O4PNz0HJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-plugin-react-gDOoWM3m',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eslint-plugin-react-hooks': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eslint-plugin-react-hooks-eUkjMi8Q',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/eventemitter3': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.eventemitter3-vfGoiBVy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/events': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.events-IJyr2c5A',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fast-glob': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.fast-glob-oDz24OmM',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fast-uri': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.fast-uri-svqRaEN8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fastq': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.fastq-cjcOhCF3',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/fflate': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.fflate-czk4qEjO',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/flatted': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.flatted-50hBfXy6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/for-each': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.for-each-bL6Rewug',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/function.prototype.name': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.function.prototype.name-fN97guV5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/functions-have-names': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.functions-have-names-t2dBG0mY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/generator-function': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.generator-function-dgIazPaG',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/get-symbol-description': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.get-symbol-description-scbWoIxM',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/get-tsconfig': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.get-tsconfig-JZ2FVUze',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/glob-to-regexp': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.glob-to-regexp-rKiKC1Jd',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/globalthis': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.globalthis-F9zLwnwk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/graceful-fs': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.graceful-fs-psx6wAly',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-bigints': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.has-bigints-4sGGxps9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-property-descriptors': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.has-property-descriptors-bMss8gu2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/has-proto': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.has-proto-gLejs5iZ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hasown': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.hasown-3Upr2MdJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hermes-estree': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.hermes-estree-s6V3ekil',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hermes-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.hermes-parser-GcO66qic',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/hex-rgb': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.hex-rgb-veccrwR7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/image-size': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.image-size-TQ8tIdHb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/immer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.immer-8UFVk7XU',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/input-otp': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.input-otp-RZQhxC5G',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/internal-slot': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.internal-slot-UxTojhb8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ipaddr.js': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.ipaddr.js-cZtfQUYd',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-array-buffer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-array-buffer-DrlX9oDy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-async-function': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-async-function-vS431miq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-bigint': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-bigint-swXaRBuJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-boolean-object': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-boolean-object-8orxLXr2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-bun-module': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-bun-module-y7vI7Occ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-callable': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-callable-CJUQHIyw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-core-module': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-core-module-h6N1fvhq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-data-view': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-data-view-I7CPoSA4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-date-object': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-date-object-As5NdgPj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-finalizationregistry': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-finalizationregistry-epIG0fCa',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-generator-function': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-generator-function-JsDISg6B',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-map': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-map-9SAJ4q1a',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-negative-zero': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-negative-zero-ZhztT5n4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-number-object': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-number-object-IbTwoV4S',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-regex': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-regex-ufBdU7Rb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-set': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-set-Dmgjxr9M',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-shared-array-buffer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-shared-array-buffer-Nfa12vi6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-string': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-string-xUpWlsSA',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-symbol': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-symbol-DC7Y42Bh',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-typed-array': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-typed-array-r3O5s9Ug',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakmap': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-weakmap-mbooPTyO',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakref': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-weakref-mRzo5ZFm',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/is-weakset': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.is-weakset-Z8ZCp08C',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/isarray': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.isarray-ES9ujBRA',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/iterator.prototype': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.iterator.prototype-kQSWQKAe',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jest-worker': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.jest-worker-WcF5bYJI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jiti': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.jiti-cA0YB6CW',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/js-yaml': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.js-yaml-cYlXV6uc',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jsesc': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.jsesc-sPSWNsWD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/json-rpc-2.0': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.json-rpc-2.0-Yp5n4kTX',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/json5': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.json5-pBsOp8mK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/jsx-ast-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.jsx-ast-utils-xBJQVO2s',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/kleur': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.kleur-lr1Pa4NL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/language-subtag-registry': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.language-subtag-registry-CJQRshhK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/language-tags': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.language-tags-M3JoW9Yi',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lightningcss': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.lightningcss-nPevq9gX',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lightningcss-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.lightningcss-darwin-arm64-rFP8Ov6w',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/linebreak': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.linebreak-o03IBtof',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/loader-runner': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.loader-runner-JK497Jj6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/loose-envify': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.loose-envify-eJB4EctF',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/lucide-react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.lucide-react-JlQNoCuu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/merge-stream': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.merge-stream-v4EIK7ql',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/miniflare': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.miniflare-73QWRtB1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/minimist': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.minimist-6UWDX4Dm',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/nanoid': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.nanoid-TSvLXJQJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/napi-postinstall': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.napi-postinstall-6C0V4e2k',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/neo-async': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.neo-async-qwv1uLvI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/next': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.next-mDrqUwe5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/next-themes': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.next-themes-WdkrPjIV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/node-exports-info': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.node-exports-info-eFDlsMlR',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/node-releases': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.node-releases-1hpN1oSJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object-keys': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object-keys-W1UdtXNZ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.assign': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object.assign-DZIanSW6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.entries': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object.entries-SauBzIon',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.fromentries': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object.fromentries-nv8PGNvP',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.groupby': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object.groupby-hOAQdDdP',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/object.values': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.object.values-0dzus4N8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/own-keys': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.own-keys-aSO8ORYW',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/pako': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.pako-mZivn2pt',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/parse-css-color': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.parse-css-color-EwWOKyQB',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/path-to-regexp': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.path-to-regexp-OFiYwfEO',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/possible-typed-array-names': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.possible-typed-array-names-FKwhbk19',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/postcss': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.postcss-S2iPAJBT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/radix-ui': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.radix-ui-CT4bkPn3',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-buOgom5B',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-day-picker': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-day-picker-ZWyx7H00',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-dom': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-dom-ulPy8XVx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-hook-form': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-hook-form-h00jzLOl',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-redux': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-redux-pX1rPM8a',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-resizable-panels': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-resizable-panels-zZ1jBzyk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/react-server-dom-webpack': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.react-server-dom-webpack-OVTDgnxt',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/recharts': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.recharts-gIQqc03W',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/redux': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.redux-PmNtzzpa',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/redux-thunk': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.redux-thunk-5DX01Feb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/reflect.getprototypeof': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.reflect.getprototypeof-wlBVjXhN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/regexp.prototype.flags': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.regexp.prototype.flags-JJyEzGRu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/reselect': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.reselect-QRUbpixr',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/resolve': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.resolve-p5aVzLO3',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/resolve-pkg-maps': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.resolve-pkg-maps-iNIh0zd1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/rolldown': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.rolldown-JTf8Y94u',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-array-concat': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.safe-array-concat-5OAlAc98',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-push-apply': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.safe-push-apply-dS4FSfX8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/safe-regex-test': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.safe-regex-test-upDCu8Xj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/satori': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.satori-QtbVJCVY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/scheduler': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.scheduler-41V5KoGj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/schema-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.schema-utils-5R7plfQa',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/semver': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.semver-kOJYH1KN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-function-length': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.set-function-length-7GiO8SdV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-function-name': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.set-function-name-wR7GcGKK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/set-proto': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.set-proto-MyKiLtwM',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/sharp': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.sharp-p15lBZ9X',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/side-channel': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.side-channel-gPFxbJkH',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/sonner': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.sonner-ATFmU6k9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/source-map-js': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.source-map-js-sKK4bQ5y',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/source-map-support': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.source-map-support-kJpbmlZv',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/srvx': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.srvx-q5hvFtC5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/stable-hash': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.stable-hash-pXxxRoY7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/stop-iteration-iterator': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.stop-iteration-iterator-qxPnFCYV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.codepointat': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.codepointat-TXxGiaOb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.includes': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.includes-VCo8Q9Wg',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.matchall': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.matchall-fTDW7mnk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.repeat': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.repeat-tJNsCAd5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trim': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.trim-ofJSr72s',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trimend': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.trimend-IgG0D0Uy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/string.prototype.trimstart': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.string.prototype.trimstart-raYw8yP5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/strip-bom': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.strip-bom-Vd8jqtsk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/styled-jsx': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.styled-jsx-XQKNvNIV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tailwind-merge': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tailwind-merge-czspljx4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tailwindcss': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tailwindcss-96U8p6ZQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tapable': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tapable-Mqu4kLVf',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/terser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.terser-kQsV7Vih',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/terser-webpack-plugin': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.terser-webpack-plugin-MMWDHXuD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tiny-inflate': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tiny-inflate-ds4HsHvT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tinyglobby': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tinyglobby-m7qN7Iyf',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tsconfig-paths': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tsconfig-paths-KIeX1xo5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tsx': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tsx-nGAEq1Oj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/turbo-stream': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.turbo-stream-zW3wn76j',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/tw-animate-css': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.tw-animate-css-mJ8yZxId',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-buffer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typed-array-buffer-dKB7Itkb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-byte-length': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typed-array-byte-length-hVINgb3Y',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-byte-offset': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typed-array-byte-offset-Gv8OdFlb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typed-array-length': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typed-array-length-qmPW9XU8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typescript': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typescript-gZxC110c',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/typescript-eslint': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.typescript-eslint-qU7bkTuC',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unbox-primitive': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.unbox-primitive-nW9bEs11',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/undici': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.undici-iMOBEMgs',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unenv': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.unenv-gGzWgHgq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unicode-trie': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.unicode-trie-cQRIFjLS',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unpic': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.unpic-ZBHMNJLN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/unrs-resolver': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.unrs-resolver-f9SpVYcw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/update-browserslist-db': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.update-browserslist-db-wGHClqv2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/use-sync-external-store': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.use-sync-external-store-oPGJHTAX',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vaul': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vaul-E9U6pWv7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/victory-vendor': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.victory-vendor-bnxJHOuS',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vinext': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vinext-Or16nCaR',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vite-G9CPzRn7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite-plugin-commonjs': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vite-plugin-commonjs-SXzkZg4c',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vite-plugin-dynamic-import': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vite-plugin-dynamic-import-mtjSKZZv',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/vitefu': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.vitefu-R5L7iIm5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/watchpack': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.watchpack-Hxvd8iZw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/web-vitals': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.web-vitals-BLAjMox4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/webpack': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.webpack-fKCnKZWv',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/webpack-sources': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.webpack-sources-HE0lw3v6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.which-H9tbULPn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-boxed-primitive': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.which-boxed-primitive-kzqmtt3R',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-builtin-type': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.which-builtin-type-L6DxvwiZ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-collection': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.which-collection-XLrLXsN4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/which-typed-array': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.which-typed-array-WR4d817S',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/workerd': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.workerd-GSEpeNXM',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/wrangler': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.wrangler-uCUzkZYw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/ws': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.ws-I42Lq1qD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/yoga-layout': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.yoga-layout-vcj4kyQo',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/youch': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.youch-CzdMsk3S',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/youch-core': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.youch-core-WyXgFOly',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/zod-validation-error': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.zod-validation-error-K3Ft1oYP',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@alloc/quick-lru': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@alloc/.quick-lru-kZSITlz4',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/code-frame': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.code-frame-FCcnk0Y5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/compat-data': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.compat-data-ZSag9Cxn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/core': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.core-G2rXyiEu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/generator': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.generator-oX7B33V1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-compilation-targets': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-compilation-targets-RWNNVJul',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-globals': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-globals-WVGlnX0B',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-module-imports': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-module-imports-95vmfvD6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-module-transforms': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-module-transforms-8JDSHvQY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-string-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-string-parser-gFUjV47f',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-validator-identifier': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-validator-identifier-KoTVz9E7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helper-validator-option': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helper-validator-option-27uzWENf',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/helpers': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.helpers-zz0ZGXFv',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.parser-puBXivfo',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/template': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.template-Fbj5qKe2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/traverse': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.traverse-Tww6WdMz',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/types': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@babel/.types-QV9tIuSw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/.react-YKM8hmmE',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@base-ui/.utils-yrPgb6XT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/kv-asset-handler': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/.kv-asset-handler-q1lCai9n',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/unenv-preset': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/.unenv-preset-u4ppneI5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/vite-plugin': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/.vite-plugin-isOk7ScQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/workerd-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/.workerd-darwin-arm64-CbaZTDdm',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/workers-types': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cloudflare/.workers-types-NkApAbqk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cspotcode/source-map-support': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@cspotcode/.source-map-support-Y08buVvD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@date-fns/tz': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@date-fns/.tz-QuoBDe6Q',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@drizzle-team/brocli': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@drizzle-team/.brocli-zgqER7hq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@emnapi/wasi-threads': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@emnapi/.wasi-threads-4Q8vSPGD',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild/darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild/.darwin-arm64-aLxtNh0m',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/core-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/.core-utils-4s9OKVpB',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/esm-loader': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@esbuild-kit/.esm-loader-lPpvKLnV',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/eslintrc': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/.eslintrc-OhJxsL9K',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/js': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint/.js-74OAhG2a',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint-community/eslint-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@eslint-community/.eslint-utils-rKQP2Flz',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@hookform/resolvers': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@hookform/.resolvers-FNe3pT1o',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/colour': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/.colour-wIm3ZRBJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/sharp-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/.sharp-darwin-arm64-hjUiCrfe',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/sharp-libvips-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@img/.sharp-libvips-darwin-arm64-VAhgtWSw',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/source-map': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/.source-map-Ks22h0Av',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/sourcemap-codec': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@jridgewell/.sourcemap-codec-UCnstspq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/env': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/.env-i4HjArji',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/eslint-plugin-next': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/.eslint-plugin-next-27JS81f9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/swc-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@next/.swc-darwin-arm64-Fjyk1DND',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@nolyfill/is-core-module': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@nolyfill/.is-core-module-vZBqO0a8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@oxc-project/types': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@oxc-project/.types-CNxnRjef',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/colors': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/.colors-biGAdWEM',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/dumper': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/.dumper-XIrijboI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/exception': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@poppinss/.exception-wkg9h528',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-accessible-icon': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-accessible-icon-H59ZZZF0',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-accordion': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-accordion-S4hPWNWd',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-alert-dialog': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-alert-dialog-4k0BPDuy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-arrow': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-arrow-pE5tLXss',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-aspect-ratio': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-aspect-ratio-37HHL0qQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-avatar': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-avatar-2271e6d3',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-checkbox': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-checkbox-7x92uUtu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-collapsible': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-collapsible-HHN7jLAq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-collection': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-collection-zHiipQqQ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-compose-refs': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-compose-refs-OYQEpGyl',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-context-menu': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-context-menu-3ojF9onL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dialog': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-dialog-gJnT9PTU',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-direction': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-direction-RBdUTvNE',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dismissable-layer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-dismissable-layer-gHzINTWo',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-dropdown-menu': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-dropdown-menu-IRwLnNhy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-focus-scope': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-focus-scope-7KV1xgNK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-form': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-form-wMRH8UgF',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-hover-card': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-hover-card-K3tav2a6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-label': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-label-4a2adNHu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-menu': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-menu-icTUdnSb',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-menubar': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-menubar-Q4LsjsRW',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-navigation-menu': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-navigation-menu-RfMxDsov',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-one-time-password-field': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-one-time-password-field-591sqeou',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-password-toggle-field': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-password-toggle-field-4N3qJ3ik',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-popover': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-popover-sNcNtNo9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-popper': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-popper-KoE6fQBi',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-portal': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-portal-66enpYwq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-presence': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-presence-inxk6AwR',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-primitive': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-primitive-U3P6XCVj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-progress': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-progress-8X4J6lA0',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-radio-group': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-radio-group-GamzPaLg',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-roving-focus': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-roving-focus-5vT7Mt7h',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-scroll-area': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-scroll-area-g3rxLn3S',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-select': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-select-qE7ALmzO',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-separator': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-separator-WtYZloRu',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-slider': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-slider-kNsHH7Pf',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-switch': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-switch-fdNQlCJ9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-tabs': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-tabs-wBbphhny',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toast': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-toast-FCGHCWzn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toggle': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-toggle-RneAwFzp',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toggle-group': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-toggle-group-OG3wdtTn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-toolbar': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-toolbar-noMuKqVK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-tooltip': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-tooltip-3bCG9KR6',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-use-escape-keydown': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-use-escape-keydown-UWFLCfcy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-use-size': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-use-size-iHvc0sv7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/react-visually-hidden': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@radix-ui/.react-visually-hidden-7onMZfg2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@reduxjs/toolkit': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@reduxjs/.toolkit-bcFSLyL1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@resvg/resvg-wasm': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@resvg/.resvg-wasm-rb5QXL3G',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/binding-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/.binding-darwin-arm64-yfzXAtV8',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/pluginutils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rolldown/.pluginutils-RTsVQh1l',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rtsao/scc': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@rtsao/.scc-YQgrWQbo',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shadcn/react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shadcn/.react-Wnbtf4WI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shuding/opentype.js': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@shuding/.opentype.js-fCofvKKT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@sindresorhus/is': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@sindresorhus/.is-IldpEtOU',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@speed-highlight/core': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@speed-highlight/.core-VfG5djm9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/spec': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/.spec-NokudlIn',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@standard-schema/.utils-YVW5xuB9',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@swc/helpers': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@swc/.helpers-yZzBPOBj',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/node': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/.node-8qGQUkoi',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/oxide': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/.oxide-RxjcqmtT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/oxide-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/.oxide-darwin-arm64-pMhdve0W',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/postcss': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tailwindcss/.postcss-X73HHmRL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tybys/wasm-util': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@tybys/.wasm-util-1wJwLWxL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/d3-shape': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.d3-shape-6ztItMEG',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/eslint': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.eslint-fWHqx467',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/eslint-scope': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.eslint-scope-R184efzk',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/json5': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.json5-StKTfQ6r',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/node': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.node-e1fT3BPp',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.react-jdmO0KyL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/react-dom': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.react-dom-Gd4LMajl',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/use-sync-external-store': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@types/.use-sync-external-store-Vk5LoWGE',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/eslint-plugin': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.eslint-plugin-CsGLGnId',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.parser-NVeaswcJ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/project-service': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.project-service-L15B3uPq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/scope-manager': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.scope-manager-oO1ph5m2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/tsconfig-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.tsconfig-utils-VMHXyZOr',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/type-utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.type-utils-yUQMdaF1',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/types': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.types-rmCS4uV0',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/typescript-estree': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.typescript-estree-TeuTbbN2',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/utils': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.utils-dkuTWdi5',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/visitor-keys': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@typescript-eslint/.visitor-keys-vCaTY0Rx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/core': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/.core-o9UpSAEL',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unpic/.react-YEvn8huU',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unrs/resolver-binding-darwin-arm64': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@unrs/.resolver-binding-darwin-arm64-hmrr1ALH',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vercel/og': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vercel/.og-aFjdmnse',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vinext/types': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vinext/.types-yYdxUDbS',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/plugin-react': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/.plugin-react-auauFCRX',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/plugin-rsc': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@vitejs/.plugin-rsc-qCsYnbWo',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/ast': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.ast-kS3pmx4g',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/floating-point-hex-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.floating-point-hex-parser-HZMZ2BUs',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-api-error': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.helper-api-error-Oi2cBaFt',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-buffer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.helper-buffer-SQIDvvKy',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-numbers': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.helper-numbers-BbRDLGYx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-wasm-bytecode': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.helper-wasm-bytecode-tJ5GcgeT',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/helper-wasm-section': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.helper-wasm-section-POiKImtY',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/ieee754': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.ieee754-bqQjpbf7',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/leb128': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.leb128-m0LquhRG',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/utf8': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.utf8-tuA4E1CN',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-edit': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.wasm-edit-q2Uy4jdq',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-gen': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.wasm-gen-NRAldUYZ',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-opt': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.wasm-opt-9OM4qmNx',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wasm-parser': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.wasm-parser-r2GITR5C',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/wast-printer': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@webassemblyjs/.wast-printer-JXdEIrnI',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/ieee754': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/.ieee754-1bzoeSVK',
+419 silly reify   '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/long': '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/@xtuc/.long-kg9lfC6b'
+419 silly reify }
+420 verbose stack Error: ENOTEMPTY: directory not empty, rename '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-kit' -> '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.drizzle-kit-U1vA85jQ'
+420 verbose stack     at async Object.rename (node:internal/fs/promises:787:10)
+420 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+420 verbose stack     at async Promise.allSettled (index 45)
+420 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:313:11)
+420 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:125:5)
+420 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+420 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:208:9)
+420 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:67:5)
+421 error code ENOTEMPTY
+422 error syscall rename
+423 error path /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-kit
+424 error dest /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.drizzle-kit-U1vA85jQ
+425 error errno -66
+426 error ENOTEMPTY: directory not empty, rename '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/drizzle-kit' -> '/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/node_modules/.drizzle-kit-U1vA85jQ'
+427 silly unfinished npm timer reify 1791486680622
+428 silly unfinished npm timer reify:retireShallow 1791486680904
+429 verbose cwd /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai
+430 verbose os Darwin 22.6.0
+431 verbose node v24.11.1
+432 verbose npm  v11.6.2
+433 verbose exit -66
+434 verbose code -66
+435 error A complete log of this run can be found in: /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.npm-cache/_logs/2026-10-08T19_11_20_401Z-debug-0.log

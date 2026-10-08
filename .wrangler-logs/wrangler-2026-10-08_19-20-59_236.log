@@ -1,0 +1,79 @@
+
+--- 2026-10-08T19:20:59.333Z debug
+🪵  Writing logs to "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.wrangler-logs/wrangler-2026-10-08_19-20-59_236.log"
+---
+
+--- 2026-10-08T19:20:59.333Z debug
+.env file not found at "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-08T19:20:59.333Z debug
+.env file not found at "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-08T19:20:59.337Z log
+
+ ⛅️ wrangler 4.92.0 (update available 4.149.0)
+──────────────────────────────────────────────
+---
+
+--- 2026-10-08T19:20:59.341Z debug
+Metrics dispatcher: Posting data {"deviceId":"94561070-3d76-4db2-a176-2058ff740dc8","event":"wrangler command started","timestamp":1791487259341,"properties":{"amplitude_session_id":1791487259340,"amplitude_event_id":0,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103","nodeVersion":24,"isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":true,"hasAssets":false,"agent":null,"argsUsed":[],"argsCombination":"","sanitizedCommand":"login","sanitizedArgs":{}}}
+---
+
+--- 2026-10-08T19:20:59.349Z log
+Attempting to login via OAuth...
+---
+
+--- 2026-10-08T19:20:59.363Z log
+Visit this link to authenticate: https://dash.cloudflare.com/oauth2/auth?response_type=code&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&scope=account%3Aread%20user%3Aread%20workers%3Awrite%20workers_kv%3Awrite%20workers_routes%3Awrite%20workers_scripts%3Awrite%20workers_tail%3Aread%20d1%3Awrite%20pages%3Awrite%20zone%3Aread%20ssl_certs%3Awrite%20ai%3Awrite%20ai-search%3Awrite%20ai-search%3Arun%20queues%3Awrite%20pipelines%3Awrite%20secrets_store%3Awrite%20artifacts%3Awrite%20flagship%3Awrite%20containers%3Awrite%20cloudchamber%3Awrite%20connectivity%3Aadmin%20email_routing%3Awrite%20email_sending%3Awrite%20browser%3Awrite%20offline_access&state=5K9Lcoo.c.EPqcxVtneuRmOp1w2efcwd&code_challenge=Lrqqch3a5YreJghmJR33MGe8KrTReVdqCMFOw0w_EyA&code_challenge_method=S256
+---
+
+--- 2026-10-08T19:21:30.408Z debug
+fetching auth token grant_type=authorization_code&code=cfoac_EK0VJrJ2-mXLkk4m8bgGExXrWIccaYNNxLUaG5q2P54.G_OlxUSXwXSxINf4zJxFrey4-1d0k-NI2fULLeeFnFs&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&code_verifier=SkdTRVhrUElTZFpFRnB5X2RqOS1zTzNzUV95VERKclhSSVB-a1ZZTU5vQm50MGc4OWhoVFctMVIyOWIzTXZUOS4zbkVzdThYVjhjOHFOflRCN1V-R2cuWksxWW91QVVo
+---
+
+--- 2026-10-08T19:21:30.410Z debug
+Checking if domain has Access enabled: dash.cloudflare.com
+---
+
+--- 2026-10-08T19:21:30.410Z debug
+Access switch not cached for: dash.cloudflare.com
+---
+
+--- 2026-10-08T19:21:30.531Z debug
+Caching access switch for: dash.cloudflare.com
+---
+
+--- 2026-10-08T19:21:30.531Z debug
+Fetching auth token from https://dash.cloudflare.com/oauth2/token
+---
+
+--- 2026-10-08T19:21:31.334Z debug
+Metrics dispatcher: Posting data {"deviceId":"94561070-3d76-4db2-a176-2058ff740dc8","event":"wrangler command errored","timestamp":1791487291334,"properties":{"amplitude_session_id":1791487259340,"amplitude_event_id":1,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103","nodeVersion":24,"isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":true,"hasAssets":false,"agent":null,"argsUsed":[],"argsCombination":"","sanitizedCommand":"login","sanitizedArgs":{},"durationMs":31998,"errorType":"PermissionError"}}
+---
+
+--- 2026-10-08T19:21:31.338Z log
+
+---
+
+--- 2026-10-08T19:21:31.340Z debug
+Permission error: EPERM: operation not permitted, open '/Users/cvaranasi/Library/Preferences/.wrangler/config/default.toml'
+---
+
+--- 2026-10-08T19:21:31.424Z error
+✘ [ERROR] A permission error occurred while accessing the file system.
+
+  
+  Affected path:
+  /Users/cvaranasi/Library/Preferences/.wrangler/config/default.toml
+  
+  This is typically caused by:
+    - Insufficient file or directory permissions
+    - Files or directories being locked by another process
+    - Antivirus or security software blocking access
+  
+  Please check the file permissions and try again.
+
+
+---

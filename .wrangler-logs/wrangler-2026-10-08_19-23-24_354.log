@@ -1,0 +1,901 @@
+
+--- 2026-10-08T19:23:24.468Z debug
+🪵  Writing logs to "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.wrangler-logs/wrangler-2026-10-08_19-23-24_354.log"
+---
+
+--- 2026-10-08T19:23:24.467Z debug
+.env file not found at "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-08T19:23:24.469Z debug
+.env file not found at "/Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-08T19:23:24.474Z log
+
+ ⛅️ wrangler 4.92.0 (update available 4.149.0)
+──────────────────────────────────────────────
+---
+
+--- 2026-10-08T19:23:24.481Z debug
+Metrics dispatcher: Posting data {"deviceId":"94561070-3d76-4db2-a176-2058ff740dc8","event":"wrangler command started","timestamp":1791487404481,"properties":{"amplitude_session_id":1791487404478,"amplitude_event_id":0,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103","nodeVersion":24,"isFirstUsage":false,"configFileType":"json","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":true,"hasAssets":true,"agent":null,"argsUsed":["config","name"],"argsCombination":"config, name","sanitizedCommand":"deploy","sanitizedArgs":{}}}
+---
+
+--- 2026-10-08T19:23:24.667Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts
+---
+
+--- 2026-10-08T19:23:24.667Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.667Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.667Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.667Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:24.668Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/memberships
+---
+
+--- 2026-10-08T19:23:24.668Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.668Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.668Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:24.668Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:25.377Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:25.378Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.378Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.378Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:25.903Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:25.903Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.903Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.903Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:25.907Z debug
+Saving to cache: {"account":{"id":"4b27379b414f752850663e99f719eaef","name":"Charanvaranasi44@gmail.com's Account"}}
+---
+
+--- 2026-10-08T19:23:25.909Z debug
+Starting verifyWorkerMatchesCITag() with tag: undefined, name: bidflow-ai
+---
+
+--- 2026-10-08T19:23:25.909Z debug
+No WRANGLER_CI_MATCH_TAG variable provided, aborting verifyWorkerMatchesCITag()
+---
+
+--- 2026-10-08T19:23:25.910Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/services/bidflow-ai
+---
+
+--- 2026-10-08T19:23:25.910Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.910Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.910Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:25.910Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:27.022Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-10-08T19:23:27.022Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.022Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.022Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:27.025Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai/deployments
+---
+
+--- 2026-10-08T19:23:27.025Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.025Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.025Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.025Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:27.967Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-10-08T19:23:27.968Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.968Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:27.968Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:27.985Z info
+Attaching additional modules:
+---
+
+--- 2026-10-08T19:23:28.001Z log
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────┬────────────┐
+│ Name                                                                                                                 │ Type │ Size       │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ __vite_rsc_assets_manifest.js                                                                                        │ esm  │ 2.25 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-page-cache-DiAwDHhK.js                                                                              │ esm  │ 5.07 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-page-cache-finalizer-lPFz6GuZ.js                                                                    │ esm  │ 3.40 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-page-cache-render-D8NbUUje.js                                                                       │ esm  │ 1.87 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-page-stream-DcSrAzm3.js                                                                             │ esm  │ 9.69 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-prerender-endpoints-BAS2taUR.js                                                                     │ esm  │ 1.96 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-prerender-static-params-C1h_atO6.js                                                                 │ esm  │ 0.17 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-route-handler-dispatch-D1MTa_l9.js                                                                  │ esm  │ 25.49 KiB  │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-segment-config-BTr2B6ZW.js                                                                          │ esm  │ 14.57 KiB  │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/app-static-generation-DZj4C5PL.js                                                                       │ esm  │ 0.89 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/cache-headers-B1Wu0koi.js                                                                               │ esm  │ 47.16 KiB  │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/framework~index-CzVttloe.js                                                                             │ esm  │ 0.19 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/framework~index~layout~app-page-cache-render~app-page-cache~app-route-handler-dispatch-BoFXUBDl.js      │ esm  │ 0.80 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/framework~index~layout~page~app-page-cache-render~app-page-cache~app-route-handler-dispatch-C6VLsXA6.js │ esm  │ 5.37 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/framework~index~page~app-route-handler-dispatch-CJfJtUCm.js                                             │ esm  │ 55.28 KiB  │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/implicit-tags-CCq6zwVM.js                                                                               │ esm  │ 1.63 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/isr-cache-DAoh6a6g.js                                                                                   │ esm  │ 4.81 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/navigation-runtime-D_YZT7-h.js                                                                          │ esm  │ 0.78 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/page-DijrfgwC.js                                                                                        │ esm  │ 0.18 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/record-Crmk5sem.js                                                                                      │ esm  │ 4.85 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/rolldown-runtime-DUnMT5BP.js                                                                            │ esm  │ 0.68 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/root-params-0DVgYa50.js                                                                                 │ esm  │ 1.21 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/rsc-CklM6-lD.js                                                                                         │ esm  │ 0.71 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ _next/static/text-stream-Cdqwnq3X.js                                                                                 │ esm  │ 18.96 KiB  │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/__vite_rsc_assets_manifest.js                                                                                    │ esm  │ 2.25 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/app-prefetch-fetch-queue-DxuBK-0j.js                                                                │ esm  │ 0.00 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/app-router-scroll--pdW6Q5q.js                                                                       │ esm  │ 2.49 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/error-boundary-BR25YNLd.js                                                                          │ esm  │ 5.28 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/layout-segment-context-Bmoyw7Af.js                                                                  │ esm  │ 0.37 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/page-Cw7zrSzM.js                                                                                    │ esm  │ 495.75 KiB │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/static.edge-CKJjMt3N.js                                                                             │ esm  │ 0.16 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/_next/static/streamed-icons-BZpLCcmq.js                                                                          │ esm  │ 0.67 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/index.js                                                                                                         │ esm  │ 271.79 KiB │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ ssr/vinext-client-assets.js                                                                                          │ esm  │ 1.39 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ vinext-client-assets.js                                                                                              │ esm  │ 1.39 KiB   │
+├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────┼────────────┤
+│ Total (35 modules)                                                                                                   │      │ 989.52 KiB │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────┴────────────┘
+---
+
+--- 2026-10-08T19:23:28.014Z info
+🌀 Building list of assets...
+---
+
+--- 2026-10-08T19:23:28.016Z info
+✨ Read 24 files from the assets directory /Users/cvaranasi/Documents/Codex/2026-10-09/build-bidflow-ai-an-intelligent-bid/bidflow-ai/dist/client
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/.assetsignore
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/.vite
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_headers
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/favicon.svg
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/file.svg
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/globe.svg
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/vinext-client-entry-manifest.json
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/window.svg
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/css
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_buildManifest.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_ssgManifest.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/css/index.Dz2Wxwyw.css
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/app-route-prefetch-policy-BBfB_oxu.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/framework-D_rUT4EX.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/index-Dqom9u8w.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/layout-segment-context-BckbHU1g.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/page-BfNQHU6v.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/rolldown-runtime-C60lm6uB.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/_next/static/chunks/streamed-icons-Bumrcy-j.js
+---
+
+--- 2026-10-08T19:23:28.017Z debug
+/.vite/manifest.json
+---
+
+--- 2026-10-08T19:23:28.018Z debug
+Ignoring asset: .assetsignore
+---
+
+--- 2026-10-08T19:23:28.019Z debug
+Ignoring asset: .vite
+---
+
+--- 2026-10-08T19:23:28.019Z debug
+Ignoring asset: _headers
+---
+
+--- 2026-10-08T19:23:28.019Z debug
+Ignoring asset: .vite/manifest.json
+---
+
+--- 2026-10-08T19:23:28.034Z info
+🌀 Starting asset upload...
+---
+
+--- 2026-10-08T19:23:28.034Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai/assets-upload-session
+---
+
+--- 2026-10-08T19:23:28.034Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:28.035Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:28.035Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:28.035Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:30.726Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:30.726Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.726Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.726Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:30.727Z info
+🌀 Found 15 new or modified static assets to upload. Proceeding with upload...
+---
+
+--- 2026-10-08T19:23:30.727Z info
++ /vinext-client-entry-manifest.json
+---
+
+--- 2026-10-08T19:23:30.727Z info
++ /favicon.svg
+---
+
+--- 2026-10-08T19:23:30.727Z info
++ /_next/static/chunks/layout-segment-context-BckbHU1g.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/app-route-prefetch-policy-BBfB_oxu.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/framework-D_rUT4EX.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_ssgManifest.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /window.svg
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/rolldown-runtime-C60lm6uB.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /globe.svg
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/index-Dqom9u8w.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_buildManifest.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /file.svg
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/streamed-icons-Bumrcy-j.js
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/css/index.Dz2Wxwyw.css
+---
+
+--- 2026-10-08T19:23:30.728Z info
++ /_next/static/chunks/page-BfNQHU6v.js
+---
+
+--- 2026-10-08T19:23:30.737Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/assets/upload?base64=true
+---
+
+--- 2026-10-08T19:23:30.737Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.737Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.737Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.739Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/assets/upload?base64=true
+---
+
+--- 2026-10-08T19:23:30.739Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.739Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.739Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.742Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/assets/upload?base64=true
+---
+
+--- 2026-10-08T19:23:30.742Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.742Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.742Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.743Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.743Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:30.746Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.746Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:30.748Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:30.748Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:33.193Z debug
+-- START CF API RESPONSE: Accepted 202
+---
+
+--- 2026-10-08T19:23:33.193Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.193Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.193Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:33.194Z info
+Uploaded 5 of 15 assets
+---
+
+--- 2026-10-08T19:23:33.194Z debug
+✨ /_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_ssgManifest.js
+---
+
+--- 2026-10-08T19:23:33.194Z debug
+✨ /window.svg
+---
+
+--- 2026-10-08T19:23:33.194Z debug
+✨ /_next/static/chunks/rolldown-runtime-C60lm6uB.js
+---
+
+--- 2026-10-08T19:23:33.194Z debug
+✨ /globe.svg
+---
+
+--- 2026-10-08T19:23:33.194Z debug
+✨ /_next/static/chunks/index-Dqom9u8w.js
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+-- START CF API RESPONSE: Created 201
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:33.364Z info
+Uploaded 10 of 15 assets
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+✨ /vinext-client-entry-manifest.json
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+✨ /favicon.svg
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+✨ /_next/static/chunks/layout-segment-context-BckbHU1g.js
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+✨ /_next/static/chunks/app-route-prefetch-policy-BBfB_oxu.js
+---
+
+--- 2026-10-08T19:23:33.364Z debug
+✨ /_next/static/chunks/framework-D_rUT4EX.js
+---
+
+--- 2026-10-08T19:23:33.408Z debug
+-- START CF API RESPONSE: Created 201
+---
+
+--- 2026-10-08T19:23:33.408Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.408Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.408Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:33.409Z info
+Uploaded 15 of 15 assets
+---
+
+--- 2026-10-08T19:23:33.409Z debug
+✨ /_next/static/fe2d2b5c-2e94-4061-bdd6-3b3195950884/_buildManifest.js
+---
+
+--- 2026-10-08T19:23:33.409Z debug
+✨ /file.svg
+---
+
+--- 2026-10-08T19:23:33.409Z debug
+✨ /_next/static/chunks/streamed-icons-Bumrcy-j.js
+---
+
+--- 2026-10-08T19:23:33.409Z debug
+✨ /_next/static/css/index.Dz2Wxwyw.css
+---
+
+--- 2026-10-08T19:23:33.409Z debug
+✨ /_next/static/chunks/page-BfNQHU6v.js
+---
+
+--- 2026-10-08T19:23:33.409Z log
+✨ Success! Uploaded 15 files (2.68 sec)
+
+---
+
+--- 2026-10-08T19:23:33.453Z log
+Total Upload: 1181.93 KiB / gzip: 345.39 KiB
+---
+
+--- 2026-10-08T19:23:33.453Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai/settings
+---
+
+--- 2026-10-08T19:23:33.453Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.453Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.453Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:33.453Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:34.431Z debug
+-- START CF API RESPONSE: Not Found 404
+---
+
+--- 2026-10-08T19:23:34.432Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.432Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.432Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:34.432Z debug
+No settings found
+---
+
+--- 2026-10-08T19:23:34.435Z debug
+-- START CF API REQUEST: PUT https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai
+---
+
+--- 2026-10-08T19:23:34.435Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.435Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.435Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.441Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:34.441Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:37.821Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:37.821Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:37.821Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:37.821Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:37.822Z log
+Worker Startup Time: 19 ms
+---
+
+--- 2026-10-08T19:23:37.824Z log
+Uploaded bidflow-ai (10.80 sec)
+---
+
+--- 2026-10-08T19:23:37.825Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/subdomain
+---
+
+--- 2026-10-08T19:23:37.825Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:37.825Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:37.825Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:37.825Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai/subdomain
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:38.842Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:39.912Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/4b27379b414f752850663e99f719eaef/workers/scripts/bidflow-ai/subdomain
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+QUERY STRING: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:39.913Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-10-08T19:23:41.078Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-10-08T19:23:41.079Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:41.079Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-10-08T19:23:41.079Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-10-08T19:23:41.079Z log
+Deployed bidflow-ai triggers (3.25 sec)
+---
+
+--- 2026-10-08T19:23:41.079Z log
+  https://bidflow-ai.charanvaranasi44.workers.dev
+---
+
+--- 2026-10-08T19:23:41.079Z log
+Current Version ID: 369ad29b-3feb-4695-899d-24266acc2cb7
+---
+
+--- 2026-10-08T19:23:41.081Z debug
+Metrics dispatcher: Posting data {"deviceId":"94561070-3d76-4db2-a176-2058ff740dc8","event":"deploy worker script","timestamp":1791487421081,"properties":{"amplitude_session_id":1791487421079,"amplitude_event_id":0,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103","nodeVersion":24,"isFirstUsage":false,"configFileType":"none","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":true,"hasAssets":false,"agent":null,"category":"Workers","os":"darwin:arm64","usesTypeScript":false,"durationMs":15171}}
+---
+
+--- 2026-10-08T19:23:41.084Z debug
+Metrics dispatcher: Posting data {"deviceId":"94561070-3d76-4db2-a176-2058ff740dc8","event":"wrangler command completed","timestamp":1791487421084,"properties":{"amplitude_session_id":1791487404478,"amplitude_event_id":1,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Mac OS","osVersion":"Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103","nodeVersion":24,"isFirstUsage":false,"configFileType":"json","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":true,"hasAssets":true,"agent":null,"argsUsed":["config","name"],"argsCombination":"config, name","sanitizedCommand":"deploy","sanitizedArgs":{},"durationMs":16615}}
+---
